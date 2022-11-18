@@ -1,6 +1,11 @@
-<p>Projeto iniciado em 18/11/2022</p>
+<h1>Meu Portifólio WebSite</h1>
+<br>
 <p>O Objetivo é criar um site Portifólio e demonstrar um pouco das minhas habilidade e ao mesmo tempo colocalas em prática</p>
+<br>
 <p>O projeto inicial é inspirado em um projeto do <a href="https://www.figma.com/community/file/1162157859305054706">Figma</a></p>
+<br>
+O Meu projeto do figma para como o site deverá se parecer é esse: <a href="https://www.figma.com/community/file/1162157859305054706">Meu projeto no Figma</a>
+
 
 ## Ideias para o projeto:
 		
@@ -24,10 +29,15 @@
 	- Blog com dicas de como criar algum tipo de conteúdo
 	    Será???
 
-	Ideías de logos:
+## Ideías de logos:
 
 	<TH>
 	</TH>
 	</dev>
 	Usar </>
 	"coder" "dev" "Front-end"
+
+## Atualizações:
+
+- 18/01/2022 - Ínicio do Projeto
+    Adicionado arquivos e estruturas básicas para inicio do projeto.
