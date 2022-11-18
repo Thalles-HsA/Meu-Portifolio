@@ -16,13 +16,13 @@
 
 	- Links para redes sociais
 		(Linkdin, Github, etc);
-	Jogos para treinar habilidades basicas:
-	Quebra-cabeça para treinar display no CSS
+	    Jogos para treinar habilidades basicas:
+	    Quebra-cabeça para treinar display no CSS
 
 	- Site interativo;
 	- Demostrar um pouco de cada habilidade que aprender;
 	- Blog com dicas de como criar algum tipo de conteúdo
-	 Será???
+	    Será???
 
 	Ideías de logos:
 
