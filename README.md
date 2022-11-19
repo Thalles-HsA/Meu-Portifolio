@@ -1,4 +1,4 @@
-<h1><a href="https://thalles-hsa.github.io/Meu-Portifolio/">Meu Portifólio WebSite</a></h1>
+<h1><a href="https://thalles-hsa.github.io/Meu-Portifolio/" target="_black">Meu Portifólio WebSite</a></h1>
 
 <br>
 <p>O objetivo é criar um site portifólio e demonstrar um pouco das minhas habilidade e ao mesmo tempo colocá-las em prática</p>
