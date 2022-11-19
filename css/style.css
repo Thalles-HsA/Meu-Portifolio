@@ -1,0 +1,116 @@
+:root {
+ --background-geral: #ffffff;
+ --titulos-em-destaque: #000000;
+ --paragrafos: #777777;
+ --fonte-principal: 'Roboto', sans-serif;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-geral);
+}
+
+.conteudo__topo {
+    font-family: var(--fonte-principal);
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    margin: 10px 80px 0 160px;
+    padding: 0;
+}
+
+.imagem__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagem {
+    margin-right: 32px;
+    height: 90px;
+    width: 90px;
+}
+
+.titulo {
+    color: var(--titulos-em-destaque);
+    font-size: 36px;
+    font-weight: 700;
+    display: inline;
+ 
+}
+
+.cabecalho {
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cabecalho__menu {
+    background-color: var(--background-geral);
+    color: var(--titulos-em-destaque);
+    font-size: 24px;
+    margin: 0px 16px;
+}
+
+.conteudo__principal {
+    font-family: var(--fonte-principal);
+}
+
+.home {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.home__descricao {
+    padding-top: 60px;
+
+}
+
+.home__paragrafo {
+    font-weight: 500;
+    font-size: 32px;
+}
+.home__destaque{
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.botao {
+    height: 65px;
+    width: 310px;
+    background-color: var(--titulos-em-destaque);
+    border-radius: 1em;
+    color: var(--background-geral);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+}
+
+.icone__github{
+    height: 38px;
+    width: 40px;
+    margin: 0 32px 0 0 ;
+    
+}
+
+.icone__linkedin {
+    height: 40px;
+    width: 40px;
+}
+
+.imagem__principal {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 697px;
+    width: 705px;
+}
