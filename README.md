@@ -43,5 +43,9 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 
 ## Atualizações:
 
-- 18/01/2022 - Ínicio do Projeto
-    Adicionado arquivos e estruturas básicas para inicio do projeto.
+- 18/11/2022 - 	Ínicio do Projeto
+   	Adicionado arquivos e estruturas básicas para inicio do projeto.
+	Feito a página principal
+
+- 20/11/2022
+	Adicionado a página "Sobre".
