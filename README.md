@@ -49,3 +49,7 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 
 - 20/11/2022
 	Adicionado a página "Sobre".
+
+- 21/11/2022 
+	Adicionando a página "Portifólio"
+		Nota: Tenho tido dificuldade com o alinhamento dos itens, mas aos poucos os conceitos vão se fixando conforme vou aplicando no projeto.  Ainda não tenho reaproveitado o código CSS para estilizar pois estou fazendo aos poucos cada página, depois de concluir o projeto pretendo fazer o refatoramento. 
