@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fonte-principal);
     background-color: var(--background-geral);
 }
 
@@ -102,6 +102,7 @@ body {
 .icone__github{
     height: 38px;
     width: 40px;
+    margin-right: 20px;
     
 }
 
@@ -125,10 +126,10 @@ body {
 
 .sobre__logo {
     display: block;
-    margin: 60px auto 0 auto;
+    margin: 30px auto 0 auto;
     width: 200px;
     height: 200px;
-    padding: 40px 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .sobre__nome {
@@ -158,27 +159,34 @@ body {
 
 .sobre__imagens {
     display: inline-block;
-    margin: 0 460px;
+    margin: 0 450px;
 
 }
 
 .sobre__html {
     margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
 }
 
 .sobre__css {
     margin-right: 50px;
+    margin-bottom: 40px;
 }
+
 
 .sobre__js {
     margin-right: 50px;
+    margin-bottom: 40px;
 }
 
 .sobre__react {
+    margin-bottom: 40px;
 }
 
 .sobre__node {
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 .sobre__vagrant {
@@ -191,4 +199,65 @@ body {
 
 .sobre__github {
     margin-right: 50px;
+}
+
+.portifolio {
+    font-family: var(--fonte-principal);
+    height: 100vh;
+    margin-left: 200px;
+}
+.portifolio__titulo {
+    font-size: 64px;
+    font-weight: 700;
+    inline-size: 270px;
+    display: inline-block;
+    margin-right: 110px;
+    margin-top: 90px;
+
+}
+
+.portifolio__paragrafo {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--paragrafos);
+    width: 475px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 130px;
+}
+
+.portifolio__botao{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 80px 0;
+}
+
+.botao__todos {
+    background-color: var(--paragrafos);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.botao__restante {
+    background-color: #dfdfdf;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.projeto {
+    width: 1080px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-left: 240px;
+}
+
+.projeto__imagem {
+    height: 190px;
+    width: 340px;
+    border-radius: 10px;
+    margin: 25px 15px;
+    word-wrap: normal;
 }
