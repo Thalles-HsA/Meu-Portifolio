@@ -64,7 +64,6 @@ body {
     grid-template-columns: 1fr 1fr;
     margin-left: 200px;
     margin-top: 40px;
-    margin-bottom: 80px;
 }
 
 .home__descricao {
@@ -260,4 +259,127 @@ body {
     border-radius: 10px;
     margin: 25px 15px;
     word-wrap: normal;
+}
+
+.techs {
+   height: 100vh;
+   font-family: var(--fonte-principal);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(7 auto);
+   text-align: center;
+   align-items: ;
+   justify-items: center;
+}
+
+.techs__descricao {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.techs__imagem {
+    height: 800px;
+    width: 800px;
+   
+}
+
+.techs__titulo {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 90px;
+}
+
+.tecno {
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--paragrafos);
+    margin-bottom: 15px;
+}
+
+.techs__subtitulo {
+    font-weight: 700;
+    font-size: 40px;
+}
+.techs__icon{
+    display: inline-block;
+    margin: 60px;
+}
+
+.experiencia {
+    font-family: var(--fonte-principal);
+    height: 100vh;
+    margin-left: 87px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.experiencia__descricao {
+    grid-row: span 2
+}
+
+.experiencia__geral {
+    height: 280px;
+    width: 530px;
+    border: 1px solid #777777;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.experiencia__geral--margem{
+    margin-left: 74px;
+}
+
+.experiencia__titulo {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 25px 96px;
+}
+
+.experiencia__paragrafo {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--paragrafos);
+}
+
+.experiencia--descricao {
+    grid-column-start: 2;
+    grid-row-start: 1;
+   
+}
+
+.experiencia--paragrafo {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--paragrafos);
+    height: 74px;
+    width: 387px;
+    display: inline-block;
+    margin-left: 220px;
+    margin-right: 120px;
+    
+}
+
+.experiencia--titulo {
+    font-size: 64px;
+    font-weight: 700;
+    height: 134px;
+    width: 349px;
+    display: inline-block;
+    
+}
+
+
+.experiencia__imagem   {
+    width: 1024px;
+    height: 724px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 150px;
+    margin-bottom: 100px;
 }

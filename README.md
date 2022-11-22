@@ -44,7 +44,7 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 ## Atualizações:
 
 - 18/11/2022 - 	Início do Projeto <br>
-   	Adicionado arquivos e estruturas básicas para início do projeto. /
+   	Adicionado arquivos e estruturas básicas para início do projeto. <br>
 	Feito a página principal. <br>
 
 - 20/11/2022 <br>
@@ -52,5 +52,7 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 
 - 21/11/2022 <br>
 	Adicionando a página "Portifólio". <br>
-		Nota: Tenho tido dificuldade com o alinhamento dos itens, mas aos poucos os conceitos vão se fixando conforme vou aplicando no projeto.  Ainda não tenho reaproveitado o código CSS para estilizar pois estou fazendo aos poucos cada página, depois de concluir o projeto pretendo fazer o refatoramento. /
+		- Nota: Tenho tido dificuldade com o alinhamento dos itens, mas aos poucos os conceitos vão se fixando conforme vou aplicando no projeto.  Ainda não tenho reaproveitado o código CSS para estilizar pois estou fazendo aos poucos cada página, depois de concluir o projeto pretendo fazer o refatoramento.
 		Até aqui a pagína ainda não tem responsabilidade, como o refatoramento, vou terminar todo o site para começar a trabalhar nele. 
+		Finalizado a parte estética do site. Ainda tem muito a melhorar mas até aqui já evolui bastante. 
+	
