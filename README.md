@@ -55,4 +55,7 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 		- Nota: Tenho tido dificuldade com o alinhamento dos itens, mas aos poucos os conceitos vão se fixando conforme vou aplicando no projeto.  Ainda não tenho reaproveitado o código CSS para estilizar pois estou fazendo aos poucos cada página, depois de concluir o projeto pretendo fazer o refatoramento.
 		Até aqui a pagína ainda não tem responsabilidade, como o refatoramento, vou terminar todo o site para começar a trabalhar nele. 
 		Finalizado a parte estética do site. Ainda tem muito a melhorar mas até aqui já evolui bastante. 
+
+- 22/11/2022
+	Troca de posição do Style.css com o reset.css no head do HTML: Tive algumas dificuldades ao longo do desenvolvimento do site, tive de repitir muito o codigo, principalmente a fonte, que é padrão em todo site, agora descobri que importa a ordem que é "linkado" os reset e o style no head.
 	
