@@ -1,0 +1,57 @@
+.portifolio {
+    height: 100vh;
+    margin-left: 200px;
+}
+.portifolio__titulo {
+    font-size: 2em;
+    font-weight: 700;
+    inline-size: 270px;
+    display: inline-block;
+    margin-right: 110px;
+    margin-top: 90px;
+
+}
+
+.portifolio__paragrafo {
+    color: var(--paragrafos);
+    width: 475px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 130px;
+}
+
+.portifolio__botao{
+    font-size: 0.75em;
+    font-weight: 700;
+    margin: 80px 0;
+}
+
+.botao__todos {
+    background-color: var(--paragrafos);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.botao__restante {
+    background-color: #dfdfdf;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.projeto {
+    width: 1080px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-left: 240px;
+}
+
+.projeto__imagem {
+    height: 190px;
+    width: 340px;
+    border-radius: 10px;
+    margin: 25px 15px;
+    word-wrap: normal;
+}

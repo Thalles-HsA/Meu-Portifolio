@@ -1,0 +1,75 @@
+.sobre {
+    height: 100vh;
+}
+
+.sobre__logo {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 200px;
+    height: 200px;
+    padding: 0 0 0 0;
+}
+
+.sobre__nome {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 40px 0 0 0;
+}
+
+.sobre__paragrafo {
+    text-align: center;
+    margin: 40px 400px;
+    line-height: 1.2;
+}
+
+.sobre__skill {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 60px;
+}
+
+.sobre__imagens {
+    display: inline-block;
+    margin: 0 450px;
+
+}
+
+.sobre__html {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.sobre__css {
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+
+.sobre__js {
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.sobre__react {
+    margin-bottom: 40px;
+}
+
+.sobre__node {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.sobre__vagrant {
+    margin-right: 50px;
+}
+
+.sobre__linux {
+    margin-right: 50px;
+}
+
+.sobre__github {
+    margin-right: 50px;
+}

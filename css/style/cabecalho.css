@@ -1,0 +1,34 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: var(--background-geral);
+}
+
+.conteiner__imagem-titulo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.conteiner__imagem {
+    height: 3em;
+    width: 3em;
+    padding: 0 1.5em 0 4em;
+}
+
+.conteiner__titulo {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.lista-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.lista-menu__item {
+    font-size: 0.75em;
+    padding: 0px 1em;
+}

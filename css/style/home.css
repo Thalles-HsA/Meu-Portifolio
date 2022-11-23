@@ -1,0 +1,54 @@
+.home {
+
+}
+
+.home__descricao {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+
+.home-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home__destaque{
+    font-weight: 700;
+    font-size: 2.25em;
+}
+
+.botao {
+
+    background-color: var(--titulos-em-destaque);
+    border-radius: 0.7em;
+    color: var(--background-geral);
+    font-size: 0.75em;
+    padding: 0.8em;
+    width: 10em;
+}
+
+.icone{
+    margin: 0 0 5rem 0;
+}
+
+.icone__github{
+    height: 38px;
+    width: 40px;
+    margin-right: 20px;
+    
+}
+
+.icone__linkedin {
+    height: 40px;
+    width: 40px;
+}
+
+.imagem__principal {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 697px;
+    width: 705px;
+}
