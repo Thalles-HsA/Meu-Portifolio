@@ -1,15 +1,6 @@
 .experiencia {
-    height: 100vh;
-    margin-left: 87px;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
-    grid-template-rows: 1fr 1fr;
-
-}
-
-.experiencia__descricao {
-    grid-row: span 2
+    display: flex;
+    justify-content: space-around;
 }
 
 .experiencia__geral {
@@ -39,35 +30,31 @@
 }
 
 .experiencia--descricao {
-    grid-column-start: 2;
-    grid-row-start: 1;
+    display: flex;
+    flex-direction: column;
    
+}
+
+.conteiner-experiencia {
+    display: flex;
+    align-items: center;
 }
 
 .experiencia--paragrafo {
     color: var(--paragrafos);
-    height: 74px;
-    width: 387px;
-    display: inline-block;
-    margin-left: 220px;
-    margin-right: 120px;
-    
+    width: 12em;
+    margin-left: 3em;
+
 }
 
 .experiencia--titulo {
     font-size: 2em;
     font-weight: 700;
-    height: 134px;
-    width: 349px;
-    display: inline-block;
-    
+    width: 6em;
+    margin: 1em;
 }
 
 .experiencia__imagem   {
-    width: 1024px;
-    height: 724px;
-    grid-column-start: 2;
-    grid-row-start: 2;
-    margin-left: 150px;
-    margin-bottom: 100px;
+    width: 27em;
+    margin: auto;
 }

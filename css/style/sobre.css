@@ -1,75 +1,33 @@
 .sobre {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1em 7em;
+    text-align: center;
 }
 
 .sobre__logo {
-    display: block;
-    margin: 30px auto 0 auto;
-    width: 200px;
-    height: 200px;
-    padding: 0 0 0 0;
+    width: 6.25em;
+    height: 6.25em;
+    padding: 1em;
 }
 
-.sobre__nome {
-    text-align: center;
+.sobre__nome, .sobre__skill {
     font-size: 2em;
     font-weight: 700;
-    margin: 40px 0 0 0;
+    padding: 0.5em;
 }
 
 .sobre__paragrafo {
-    text-align: center;
-    margin: 40px 400px;
-    line-height: 1.2;
-}
-
-.sobre__skill {
-    text-align: center;
-    font-size: 2em;
-    font-weight: 700;
-    margin: 60px;
+    margin-bottom: 2em;
 }
 
 .sobre__imagens {
-    display: inline-block;
-    margin: 0 450px;
-
+    margin: 0.5em auto;
 }
 
-.sobre__html {
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 40px;
-}
-
-.sobre__css {
-    margin-right: 50px;
-    margin-bottom: 40px;
-}
-
-
-.sobre__js {
-    margin-right: 50px;
-    margin-bottom: 40px;
-}
-
-.sobre__react {
-    margin-bottom: 40px;
-}
-
-.sobre__node {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-.sobre__vagrant {
-    margin-right: 50px;
-}
-
-.sobre__linux {
-    margin-right: 50px;
-}
-
-.sobre__github {
-    margin-right: 50px;
+.sobre__itens {
+    padding: 0.5em;
 }
