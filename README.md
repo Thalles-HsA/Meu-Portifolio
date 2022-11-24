@@ -43,19 +43,24 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 
 ## Atualizações:
 
-- 18/11/2022 - 	Início do Projeto <br>
-   	Adicionado arquivos e estruturas básicas para início do projeto. <br>
-	Feito a página principal. <br>
+- 18/11/2022 	
+	- Início do Projeto
+   	- Adicionado arquivos e estruturas básicas para início do projeto.
+	- Feito a página principal.
 
-- 20/11/2022 <br>
-	Adicionado a página "Sobre". <br>
+- 20/11/2022 
+	- Adicionado a página "Sobre". 
 
-- 21/11/2022 <br>
-	Adicionando a página "Portifólio". <br>
+- 21/11/2022
+	- Adicionando a página "Portifólio".
 		- Nota: Tenho tido dificuldade com o alinhamento dos itens, mas aos poucos os conceitos vão se fixando conforme vou aplicando no projeto.  Ainda não tenho reaproveitado o código CSS para estilizar pois estou fazendo aos poucos cada página, depois de concluir o projeto pretendo fazer o refatoramento.
 		Até aqui a pagína ainda não tem responsabilidade, como o refatoramento, vou terminar todo o site para começar a trabalhar nele. 
-		Finalizado a parte estética do site. Ainda tem muito a melhorar mas até aqui já evolui bastante. 
+	- Finalizado a parte estética do site. Ainda tem muito a melhorar mas até aqui já evolui bastante. 
 
 - 22/11/2022
-	Troca de posição do Style.css com o reset.css no head do HTML: Tive algumas dificuldades ao longo do desenvolvimento do site, tive de repitir muito o codigo, principalmente a fonte, que é padrão em todo site, agora descobri que importa a ordem que é "linkado" os reset e o style no head.
+	- Troca de posição do Style.css com o reset.css no head do HTML. Tive algumas dificuldades ao longo do desenvolvimento do site, tive de repitir muito o codigo, principalmente a fonte, que é padrão em todo site, agora descobri que importa a ordem que é "linkado" os reset e o style no head.
 	
+-	23/11/2022
+	- 	Refatoramento do código. Ainda há muito a melhorar, mas o código está muito mais legivel e facil de lidar.
+	-	Criado um arquivo CSS para cada parte do site. Isso facilitou muito a melhoria do código e facilitará muito manutenções e atualizações futuras. 
+	- O proximo passo é trabalhar a responsabilidade do site.
