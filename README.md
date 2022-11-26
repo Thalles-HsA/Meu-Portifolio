@@ -63,4 +63,9 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 -	23/11/2022
 	- 	Refatoramento do código. Ainda há muito a melhorar, mas o código está muito mais legivel e facil de lidar.
 	-	Criado um arquivo CSS para cada parte do site. Isso facilitou muito a melhoria do código e facilitará muito manutenções e atualizações futuras. 
-	- O proximo passo é trabalhar a responsabilidade do site.
+	- O proximo passo é trabalhar a responsividade do site.
+
+- 24/11/2022 até 26/11/2022
+	- Atualização de Layout
+	- Colocado mais cor, movimento e interação no projeto.
+
