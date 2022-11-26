@@ -7,17 +7,22 @@
 
 :root {
  --background-geral: #ffffff;
- --titulos-em-destaque: #000000;
+ --preto: #000000;
  --paragrafos: #777777;
  --botao: #dfdfdf;  
- --fonte-principal: 'Roboto', sans-serif;
+ --fonte-principal: 'Outfit', sans-serif;
+ --laranja: #f05f4a;
+ --roxo: #7b54a7;
+ --roxo-escuro: #422567;
+ --laranja-degrade: linear-gradient(121.86deg, #f05f4a 23.04%, #7b54a7 97.21%);
+ --roxo-degrade: linear-gradient(121.86deg,  #f05f4a 23.04%, #7b54a7 97.21%);
 
 }
 
 body {
     font-family: var(--fonte-principal);
     background-color: var(--background-geral);
-    font-weight: 500;
-    font-size: 32px;
+    font-weight: 400;
+    font-size: 24px;
     color: var(--titulos-em-destaque);
 }

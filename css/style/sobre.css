@@ -17,11 +17,7 @@
 .sobre__nome, .sobre__skill {
     font-size: 2em;
     font-weight: 700;
-    padding: 0.5em;
-}
-
-.sobre__paragrafo {
-    margin-bottom: 2em;
+    padding: 1em;
 }
 
 .sobre__imagens {
