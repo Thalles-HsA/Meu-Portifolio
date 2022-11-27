@@ -1,3 +1,18 @@
+# Nome do meu projeto
+
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Meu Web Portifólio**
+| :label: Tecnologias | html, css
+| :rocket: URL         | https://thalles-hsa.github.io/Meu-Portifolio/
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](img/site.PNG#vitrinedev)
+
+## Detalhes do projeto
+
 <h1><a href="https://thalles-hsa.github.io/Meu-Portifolio/" target="_black">Meu Portifólio WebSite</a></h1>
 
 <br>
