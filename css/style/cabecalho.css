@@ -43,7 +43,7 @@
     box-shadow: 0 1px 4px rgba(66, 37, 103, 1);
     border-radius: 5px;
     padding: 0.75em 1em;
-    background: var(--roxo-degrade);
+    background: var(--laranja-degrade);
 }
 
 .lista-menu__item {

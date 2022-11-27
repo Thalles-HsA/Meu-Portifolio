@@ -1,5 +1,5 @@
 .portifolio {
-    margin: 2em 7em;
+    margin: 2em 7em 0 7em;
 }
 
 .conteiner-portifolio {
@@ -16,7 +16,7 @@
 }
 
 .portifolio__titulo {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
     margin: 0.5em 1em 0 0;
     width: 4.25em;
@@ -24,26 +24,23 @@
 
 .portifolio__paragrafo {
     color: var(--paragrafos);
+    font-size: 0.9em;
     margin-left: 2em;
     width: 14em;
 }
 
 .portifolio__botao{
-    font-size: 0.75em;
-    font-weight: 700;
-    margin: 5em 0 2em 0;
-}
-
-.botao__todos {
-    background-color: var(--paragrafos);
-    padding: 10px;
-    border-radius: 10px;
+    font-size: 0.6em;
+    font-weight: 400;
+    margin: 2em 0 2em 0;
 }
 
 .botao__restante {
-    background-color: var(--botao);
+    background: var(--laranja-degrade);
     padding: 10px;
     border-radius: 10px;
+    color: var(--background-geral);
+    margin-right: 0.5em;
 }
 
 .projeto {
@@ -51,12 +48,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 35em;
-    margin: 2em auto;
+    width: 80vw;
+    margin: 1em auto;
 }
 
 .projeto__imagem {
     height: 190px;
     width: 340px;
     margin: 0.5em;
+    border-radius: 10px;
 }

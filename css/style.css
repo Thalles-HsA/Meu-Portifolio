@@ -1,6 +1,5 @@
 @import url(/Meu-Portifolio/css/style/cabecalho.css);
 @import url(/Meu-Portifolio/css/style/home.css);
-@import url(/Meu-Portifolio/css/style/sobre.css);
 @import url(/Meu-Portifolio/css/style/portifolio.css);
 @import url(/Meu-Portifolio/css/style/techs.css);
 @import url(/Meu-Portifolio/css/style/experiencia.css);
@@ -15,8 +14,6 @@
  --roxo: #7b54a7;
  --roxo-escuro: #422567;
  --laranja-degrade: linear-gradient(121.86deg, #f05f4a 23.04%, #7b54a7 97.21%);
- --roxo-degrade: linear-gradient(121.86deg,  #f05f4a 23.04%, #7b54a7 97.21%);
-
 }
 
 body {
