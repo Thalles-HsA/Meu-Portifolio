@@ -13,30 +13,36 @@
 </head>
 <body>
 	<header class="cabecalho">
-		<div class="conteiner__imagem-titulo">
-			<img src="img/Group.png" alt="Icone do desenvolvedor Thalles Henrique" class="conteiner__imagem">
-			<h1 class="conteiner__titulo">Thalles Henrique</h1>
-		</div>
-		<nav class="menu">
+		<div class="conteiner">
+			<div class="conteiner__imagem-titulo">
+				<img src="img/Group.png" alt="Icone do desenvolvedor Thalles Henrique" class="conteiner__imagem">
+				<h1 class="conteiner__titulo">Thalles Henrique</h1>
+			</div>
+			<input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
 			<ul class="lista-menu">
-				<li>
-					<a href="#" class="lista-menu__item">Home</a>
+				<li class="lista-menu__item">
+					<a href="#"class="lista-menu__link">Home</a>
 				</li>
-				<li>
-					<a href="#techs" class="lista-menu__item">Sobre</a>
+				<li class="lista-menu__item">
+					<a href="#techs" class="lista-menu__link">Sobre</a>
 				</li>
-				<li>
-					<a href="#portifolio" class="lista-menu__item">Portifólio</a>
+				<li class="lista-menu__item">
+					<a href="#portifolio" class="lista-menu__link">Portifólio</a>
 				</li>
-				<li>
-					<a href="#" class="lista-menu__item">Contato</a>
+				<li class="lista-menu__item">
+					<a href="#" class="lista-menu__link">Contato</a>
 				</li>
 			</ul>
-		</nav>
+		</div>
+
+
+
 	</header>
 
 	<section class="home">
-		<div class="home__descricao">
 			<div class="home-conteiner">
 				<div>
 					<p class="home__paragrafo">Olá, eu sou</p>
@@ -54,7 +60,6 @@
 				<img src="img/engrenagemLaranja.png" alt="Engrenagem laranja" class="imagem-engrenagem engrenagem-laranja">
 				<img src="img/engrenagemRoxa.png" alt="Engrenagem Roxa" class="imagem-engrenagem engrenagem-roxa">
 			</div>
-		</div>
 	</section>
 
 	<section class="techs" id="techs">
@@ -95,7 +100,6 @@
 	</section>
 
 	<section class="portifolio" id="portifolio">
-		<div class="conteiner-portifolio">
 			<div class="portifolio__descricao">
 				<h2 class="portifolio__titulo">Meu Portifólio</h2>
 				<p class="portifolio__paragrafo">Estes são alguns dos trabalhos e  projetos que já realizei</p>
@@ -114,38 +118,7 @@
 				<a href="https://github.com/Thalles-HsA/AluraMidi" target="_blank"><img src="img/AluraMidi.PNG" alt="Projeto"  class="projeto__imagem"></a>
 				<a href="https://github.com/Thalles-HsA/Freeway-JS" target="_blank"><img src="img/Freeway.jpg" alt="Projeto"  class="projeto__imagem"></a>
 			</div>
-		</div>
 	</section>
-
-	<!--
-	<section class="experiencia">
-		<article class="experiencia__descricao">
-			<div class="experiencia__geral experiencia__geral--margem">
-				<h4 class="experiencia__titulo">Sócio Adminsitrativo</h4>
-				<p class="experiencia__paragrafo">Proprietário da THS Distribuidora, e-commerc de produtos naturais. 
-						Coloquei em prática toda minha liderança e empreendedorismo. 
-						Cresci muito como profissional, desenvolvendo e me desafiando a cada dia.</p>
-			</div>
-			<div class="experiencia__geral">
-				<h4 class="experiencia__titulo">Encarregado Contábil</h4>
-				<p class="experiencia__paragrafo">Responsável pelo setor contábil da empresa Palazzo do Diet Light. 
-						Acompanhei a emissão de NF-e e elaborei balanços e relatórios.</p>
-			</div>
-			<div class="experiencia__geral experiencia__geral--margem">
-				<h4 class="experiencia__titulo">Estágio/Aux.de Escritório</h4>
-				<p class="experiencia__paragrafo">Geração de relários simples, emissão de NF-e, 
-						conferência de estoques, solicitações de compra. </p>
-			</div>
-		</article>
-		<div class="experiencia--descricao">
-			<div class="conteiner-experiencia">
-				<p class="experiencia--paragrafo">Minha jornada esta apenas começando...</p>
-				<h2 class="experiencia--titulo">Experiência Profissional</h2>
-			</div>
-			<img src="img/reuniao.png" alt="Uma reuniao de negocio" class="experiencia__imagem">
-		</div>		
-	</section>
--->
-
+	
 </body>
 </html>

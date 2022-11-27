@@ -1,8 +1,5 @@
 .portifolio {
     margin: 2em 7em 0 7em;
-}
-
-.conteiner-portifolio {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -57,4 +54,27 @@
     width: 340px;
     margin: 0.5em;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .portifolio {
+        font-size: 16px;
+        margin: 1em 2em;
+    }
+
+    .portifolio__descricao {
+        margin: 1em;
+    }
+
+    .portifolio__titulo{
+        margin-bottom: 0.5em;
+    }
+
+    .portifolio__paragrafo {
+        margin: 0;
+    }
+
+    .portifolio__botao {
+        margin: 2em 1em;
+    }
 }

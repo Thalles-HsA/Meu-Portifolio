@@ -61,3 +61,29 @@
     transition: 0.5s;
     
 }
+
+@media screen and (max-width: 1024px){
+    .techs {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .techs-conteiner {
+        margin: 0 0 1em 0;
+        width: 70vw;
+    }
+
+    .sobre__logo {
+        width: 5em;
+        height: auto;
+    }
+
+    .techs__paragrafo {
+        width: 60vw;
+        text-align: center;
+        margin: 1.5em auto 2em auto;
+    }
+
+
+}

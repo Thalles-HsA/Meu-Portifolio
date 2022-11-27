@@ -1,4 +1,4 @@
-.home__descricao {
+.home {
     display: flex;
     margin: 2.5em 10vw 1.5em 10vw;
     justify-content: center;
@@ -57,6 +57,7 @@
 .imagem__principal {
     margin: auto 0;
 }
+
 .home__conteiner-imagem {
     display: flex;
     width: 50vw;
@@ -92,4 +93,32 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+.mobile-home-conteiner {
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+
+    .home {
+        text-align: center;
+        font-size: 16px;
+        margin: 2em 5em;
+    }
+
+    .home-conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__conteiner-imagem {
+        display: none;
+    }
+
+    .icone__github, .icone__linkedin{
+        width: 2em;
+        height: 2em;
+    }
+
 }

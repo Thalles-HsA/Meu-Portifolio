@@ -1,4 +1,4 @@
-.cabecalho {
+.conteiner {
     display: flex;
     justify-content: space-between;
     padding: 0.5em;
@@ -26,11 +26,6 @@
     font-size: 1.1em;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-}
-
 .lista-menu {
     display: flex;
     align-items: center;
@@ -38,7 +33,13 @@
     margin-right: 8vw;
 }
 
-.lista-menu__item:hover{
+.lista-menu__item {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.lista-menu__link:hover{
     color: var(--background-geral);
     box-shadow: 0 1px 4px rgba(66, 37, 103, 1);
     border-radius: 5px;
@@ -46,7 +47,90 @@
     background: var(--laranja-degrade);
 }
 
-.lista-menu__item {
+.lista-menu__link {
     font-size: 0.75em;
     padding: 0px 1em;
+}
+
+.container__botao {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cabecalho {
+        font-size: 16px;
+        position: relative;
+    }
+
+    .conteiner {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .conteiner__imagem-titulo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .conteiner__titulo {
+        padding: 0 0 0 1em;
+    }
+
+    .conteiner__imagem {
+        margin: 0 1em;
+    }
+
+    .lista-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        border-radius: 0 0 20px 0;
+        box-shadow: 5px 5px 5px rgba(240, 95, 74, 0.25);
+        width: auto;
+        background-color: var(--background-geral);
+    }
+
+    .container__botao:checked~.lista-menu {
+        display: block;
+    }
+
+    .lista-menu__item {
+        padding: 1em;
+    }
+
+    .lista-menu__link {
+        font-size: 1em;
+    }
+
+    .cabeçalho__menu-hamburguer {
+        width: 1em;
+        height: 1em;
+        background-image: url("../../img/Menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        margin: 0.75em;
+        padding: 0.25em;
+    }
+    .container__rotulo {
+        border-radius: 10px;
+    }
+    .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+        background-image: url("../../img/Menu Aberto.svg ");
+    }
+    
+    .container__botao:checked~.container__rotulo {
+        background: var(--laranja-degrade);
+    }
+
+    .container__botao {
+        display: none;
+    }
 }
