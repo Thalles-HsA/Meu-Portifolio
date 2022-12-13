@@ -43,7 +43,19 @@ projetos.push(
     imagem:'img/Pong.PNG', 
     tag: 'JS',
     filtro: 'todos'
-}
+},
+{
+    link:'https://github.com/Thalles-HsA/MetodosArray', 
+    imagem:'img/alurabookMetodosArray.PNG', 
+    tag: 'JS',
+    filtro: 'todos'
+},
+{
+    link:'https://github.com/Thalles-HsA/OrientacaoObjetoJS', 
+    imagem:'img/OOemJS.PNG', 
+    tag: 'JS',
+    filtro: 'todos'
+},
 
 )
 
