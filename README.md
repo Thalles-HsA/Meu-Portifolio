@@ -82,3 +82,6 @@ O Meu projeto do figma de como o site deverá se parecer é esse: <a href="https
 	- Atualização de Layout
 	- Colocado mais cor, movimento e interação no projeto.
 
+- 12/12/2022 
+	- Primeiros passos com JavaScript no site
+

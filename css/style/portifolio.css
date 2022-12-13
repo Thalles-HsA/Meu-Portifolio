@@ -32,7 +32,7 @@
     margin: 2em 0 2em 0;
 }
 
-.botao__restante {
+.botao {
     background: var(--laranja-degrade);
     padding: 10px;
     border-radius: 10px;
