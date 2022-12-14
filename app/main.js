@@ -46,7 +46,7 @@ projetos.push(
 },
 {
     link:'https://github.com/Thalles-HsA/MetodosArray', 
-    imagem:'img/alurabookMetodosArray.PNG', 
+    imagem:'img/AlurabookMetodosArray.PNG', 
     tag: 'JS',
     filtro: 'todos'
 },
