@@ -64,6 +64,7 @@ const divProjetos = document.getElementById('projetos')
 exibirOsProjetos(projetos)
 
 function exibirOsProjetos(projetos) {
+    
     divProjetos.innerHTML = ''
 
     projetos.forEach(projetos => {
@@ -72,6 +73,8 @@ function exibirOsProjetos(projetos) {
             `
     })
 }
+
+//filtro dos botões
 
 const botoes = document.querySelectorAll('.botao')
 
