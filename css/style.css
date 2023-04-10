@@ -1,7 +1,7 @@
-@import url(/Meu-Portifolio/css/style/cabecalho.css);
-@import url(/Meu-Portifolio/css/style/home.css);
-@import url(/Meu-Portifolio/css/style/portifolio.css);
-@import url(/Meu-Portifolio/css/style/techs.css);
+@import url(./style/cabecalho.css);
+@import url(./style/home.css);
+@import url(./style/portifolio.css);
+@import url(./style/techs.css);
 
 :root {
  --background-geral: #ffffff;
